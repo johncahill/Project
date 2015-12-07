@@ -1,4 +1,4 @@
-<?xml version "1.0" encoding="UTF-8"?>
+<?xml version= "1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:template  match="/">
     <html>
@@ -6,13 +6,13 @@
     <H2> List of Books </h2>
         <table border="1">
             <tr bgcolor="#d3d3d3"> 
-                <th style="text-align:left">Category</th>
-                <th style="text-align:left">Title</th>
-                <th style="text-align:left">Author</th>
-                <th style="text-align:left">Year</th>
-                <th style="text-align:left">Recommended Age</th>
-                <th style="text-align:left">Description</th>
-                <th style="text-align:left">Price</th>
+                <th style="text-align:left">Category:</th>
+                <th style="text-align:left">Title:</th>
+                <th style="text-align:left">Author:</th>
+                <th style="text-align:left">Year:</th>
+                <th style="text-align:left">Recommended Age:</th>
+                <th style="text-align:left">Description:</th>
+                <th style="text-align:left">Price:</th>
             </tr>
             <xsl:for-each select="books/book"></xsl:for-each>
             <tr>

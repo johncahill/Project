@@ -179,7 +179,6 @@
     <ageRating>Mature</ageRating>
     <description>One of the most influential graphic novels of all-time. Consider that it has been studied in college campuses. It chronicles the fall from glory of a superhero group, it dissects the heroes and the genre tropes as they are hunted by an unknown assassin.</description>
   </book>
-
   <book category="Graphic Novels">  
     <title lang="en">V for Vendetta</title>
     <author>Alan Moore</author>
@@ -257,4 +256,4 @@
   </book>  
 
   
-</books>
+<suggestions><title>My name is Mark</title><author>Mark McDonald</author></suggestions></books>

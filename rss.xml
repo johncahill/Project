@@ -1,0 +1,18 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>The Bookie Jar, Rss</title>
+<link>our website link goes here</link>
+<description>A brief description of our website</description>
+<!--"Header" ends-->
+<!-- This is where you would put the stuff you want to have a constant feed-->
+<item>
+  <title>Entry Title</title>
+  <link>Link to the entry</link>
+  <guid>http://example.com/item/123</guid>
+  <pubDate>Sat, 9 Jan 2010 16:23:41 GMT</pubDate>
+  <description>[CDATA[ This is the description. ]]</description>
+</item>
+<!-- -->
+
