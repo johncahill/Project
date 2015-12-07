@@ -83,6 +83,15 @@
           <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
+          <div id="bookList_container">
+                           <button type="button" onclick="loadDoc1()">Adults</button>
+                           <button type="button" onclick="loadDoc2()">Kids</button>
+                           <button type="button" onclick="loadDoc3()">Magazine</button>
+                           <div id="bookList_php">
+                                
+                               
+                           </div>
+                       </div>
       </div>
 
       <hr>
@@ -105,7 +114,28 @@
     <script src="../../dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-    
-    
+    <script>
+    function loadDoc1(){
+                                $.ajax({
+                                    url: 'bookList.php'})
+                                    .done (function(data) {
+                                    $('#bookList_php').html(data);
+                                    });
+   }
+       function loadDoc2(){
+                                $.ajax({
+                                    url: 'bookList.php'})
+                                    .done (function(data) {
+                                    $('#bookList_php').html(data);
+                                    });
+   }
+       function loadDoc3(){
+                                $.ajax({
+                                    url: 'bookList.php'})
+                                    .done (function(data) {
+                                    $('#bookList_php').html(data);
+                                    });
+   }
+   </script>
   </body>
 </html>
