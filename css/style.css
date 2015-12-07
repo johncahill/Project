@@ -1,6 +1,22 @@
-#header{
-    display:right;
-    color:red;
-    text-align:center;
-    min-height:150px;
+.navbar-default{
+    background-color:#0d0d0d;
+    border-color:#0d0d0d;
+    color:#0d0d0d;
 }
+.dropdown-collapse{
+    background-color:#ffffff;
+    border-color:#ffffff;
+    color:#ffffff;
+    
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    color:#ffffff;
+}
+.navbar-default p{
+    color:#ffffff;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    background-color:#0d0d0d;
+    color:white;
+}
+
