@@ -47,11 +47,9 @@ file_put_contents('product.xml', $xml->saveXML());
 }
 
 
-
+    
 ?>
-
 //rss feed
-
 <?php
 /*
  * Loading a XML from a file, adding new elements and editing elements

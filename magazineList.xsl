@@ -10,7 +10,7 @@
                 <th style="text-align:left">Title:</th>
                 <th style="text-align:left">Author:</th>
                 <th style="text-align:left">Year:</th>
-                <th style="text-align:left">Recommended Age:</th>
+                <th style="text-align:left">Age Rating:</th>
                 <th style="text-align:left">Description:</th>
                 <th style="text-align:left">Price:</th>
             </tr>
