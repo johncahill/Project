@@ -256,4 +256,8 @@
   </book>  
 
   
-<suggestions><title>My name is Mark</title><author>Mark McDonald</author></suggestions></books>
+  <suggestions>
+    <title>My name is Mark</title>
+    <author>Mark McDonald</author>
+  </suggestions>
+</books>
