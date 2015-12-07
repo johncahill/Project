@@ -3,7 +3,7 @@
 <xsl:template  match="/">
     <html>
     <body>
-    <h2> List of Books </h2>
+    <h2> List of Action Books</h2>
         <table border="1">
                 <tr bgcolor="#d3d3d3"> 
                     <th style="text-align:left">Category:</th>

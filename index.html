@@ -59,7 +59,7 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <h1>Hello, world!</h1>
+        <h1>Our Books!</h1>
         <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
         <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
       </div>
@@ -84,9 +84,10 @@
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
           <div id="bookList_container">
-                           <button type="button" onclick="loadDoc1()">Adults</button>
-                           <button type="button" onclick="loadDoc2()">Kids</button>
-                           <button type="button" onclick="loadDoc3()">Magazine</button>
+                           <button type="button" onclick="loadDoc1()">Action</button>
+                           <button type="button" onclick="loadDoc2()">CookBook</button>
+                           <button type="button" onclick="loadDoc3()">Fantasy</button>
+                           <button type="button" onclick="loadDoc4()">Science Fiction</button>
                            <div id="bookList_php">
                                 
                                
@@ -117,7 +118,7 @@
     <script>
     function loadDoc1(){
                                 $.ajax({
-                                    url: 'bookList.php'})
+                                    url: 'actionList.php'})
                                     .done (function(data) {
                                     $('#bookList_php').html(data);
                                     });

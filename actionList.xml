@@ -1,0 +1,45 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="bookstore.xslt"?>
+<books>
+ <book category="Action">  
+    <title lang="en">The Hunger Games Collection</title>
+    <author>Suzanne Collins</author>
+    <year>2008</year>
+    <price>€20.00</price>
+    <ageRating>Young Adults</ageRating>
+    <description>Katniss Everdee has just volunteered for tribute, the beginning of a battle royale to the death... Let the games begin.</description>
+  </book>
+ <book category="Action">  
+    <title lang="en">The Da Vinci Code</title>
+    <author>Dan Brown</author>
+    <year>2006</year>
+    <price>€12.99</price>
+    <ageRating>Mature</ageRating>
+    <description>A modern favourite, with suspenseful action throughout, its a well-known page turner. Can you unravel the code before you turn the last page? </description>
+  </book>
+  <book category="Action">  
+    <title lang="en">Stormbreaker</title>
+    <author>Dan Brown</author>
+    <year>2004</year>
+    <price>€10.99</price>
+    <ageRating>Young Adults</ageRating>
+    <description>Alex Rider is a teenage spy, and he's fun to read about, this is one for all those young James Bond enthusiasts!</description>
+  </book>
+  <book category="Action">  
+    <title lang="en">Killing Floor</title>
+    <author>Lee Child</author>
+    <year>2006</year>
+    <price>€8.99</price>
+    <ageRating>Mature</ageRating>
+    <description> The debut of writer Lee child. Tough ex-cop Reachers first outing in the action crime world, soon to be a major live-action film.</description>
+  </book>
+  <book category="Action">  
+    <title lang="en">Jurassic Park</title>
+    <author>Michael Crichton</author>
+    <year>1993</year>
+    <price>€8.99</price>
+    <ageRating>Mature</ageRating>
+    <description>This many need no introductions but don't be misled by the films who have stolen the spotlight, you may be surprised by how well thought the writing is in the original journey to Isla Sorna's Jurassic Park. </description>
+  </book>
+
+</books>

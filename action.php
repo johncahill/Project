@@ -1,10 +1,10 @@
 <?php
 // Load the XML source
 $xml = new DOMDocument;
-$xml->load('bookList.xml');
+$xml->load('actionList.xml');
 $xsl = new DOMDocument;
 $xsl->substituteEntities = true; 
-$xsl->load('bookList.xsl');
+$xsl->load('actionList.xsl');
 // Configure the transformer
 $proc = new XSLTProcessor;
 $proc->importStyleSheet($xsl);
