@@ -59,7 +59,11 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <h1>Hello, world!</h1>
+<<<<<<< HEAD
+        <h1>Our Books!</h1>
+=======
+        <h1>Adam is clearly the best:)!</h1>
+>>>>>>> 836e482e0c0eda51d7f87164e110b232fcbdfcb4
         <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
         <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
       </div>
@@ -69,20 +73,30 @@
       <!-- Example row of columns -->
       <div class="row">
         <div class="col-md-4">
-          <h2>Heading</h2>
+          <h2>Adults</h2>
           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
         <div class="col-md-4">
-          <h2>Heading</h2>
+          <h2>Kids</h2>
           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
        </div>
         <div class="col-md-4">
-          <h2>Heading</h2>
+          <h2>Magazines</h2>
           <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
+          <div id="bookList_container">
+                           <button type="button" onclick="loadDoc1()">Action</button>
+                           <button type="button" onclick="loadDoc2()">CookBook</button>
+                           <button type="button" onclick="loadDoc3()">Fantasy</button>
+                           <button type="button" onclick="loadDoc4()">Science Fiction</button>
+                           <div id="bookList_php">
+                                
+                               
+                           </div>
+                       </div>
       </div>
 
       <hr>
@@ -105,7 +119,28 @@
     <script src="../../dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-    
-    
+    <script>
+    function loadDoc1(){
+                                $.ajax({
+                                    url: 'actionList.php'})
+                                    .done (function(data) {
+                                    $('#bookList_php').html(data);
+                                    });
+   }
+       function loadDoc2(){
+                                $.ajax({
+                                    url: 'bookList.php'})
+                                    .done (function(data) {
+                                    $('#bookList_php').html(data);
+                                    });
+   }
+       function loadDoc3(){
+                                $.ajax({
+                                    url: 'bookList.php'})
+                                    .done (function(data) {
+                                    $('#bookList_php').html(data);
+                                    });
+   }
+   </script>
   </body>
 </html>
