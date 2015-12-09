@@ -14,7 +14,7 @@
     <year>2006</year>
     <price>€12.99</price>
     <ageRating>Mature</ageRating>
-    <description>A modern favourite, with suspenseful action throughout, its a well-known page turner. Can you unravel the code before you turn the last page? </description>
+    <description>A modern favourite, with suspenseful action throughout and is well-known as a page turner that refuses to be put down. Can you unravel the code before the climax? </description>
   </book>
   <book category="Action">  
     <title lang="en">Stormbreaker</title>
@@ -38,6 +38,6 @@
     <year>1993</year>
     <price>€8.99</price>
     <ageRating>Mature</ageRating>
-    <description>This may need no introduction, but don't be misled by the action films who have stolen the spotlight. You may be surprised by how thought-provoking the writing is in the original journey to Isla Sorna's Jurassic Park. </description>
+    <description>This may need no introduction, but don't be misled by the action films who have stolen the spotlight. You may be surprised by how thought-provoking the journey to Isla Sorna's Jurassic Park was as it was originally imagined </description>
   </book>
   </books>
