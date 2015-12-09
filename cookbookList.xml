@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="bookstore.xslt"?>
 <books>
-  <book category="cookbook">
+<book category="cookbook">
     <title lang="en">The Joy of Cooking</title>
     <author>Irma S. Rombauer</author>
     <year>1997</year>
