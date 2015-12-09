@@ -9,9 +9,9 @@ $title = $_POST["title"];
 $author = $_POST["author"];
 echo $title;
 
-if (file_exists('product.xml')) {
+if (file_exists('bookList.xml')) {
     //loads the xml and returns a simplexml object
-    $xml = simplexml_load_file('product.xml');
+    $xml = simplexml_load_file('bookList.xml');
     //print_r($xml);
     
     //transforming the object in xml format
@@ -43,8 +43,9 @@ file_put_contents('product.xml', $xml->saveXML());
 
 
 } else {
-    exit('Failed to open product.xml.'); 
+    exit('Failed to open bookList.xml.'); 
 }
+
 
 
     
@@ -106,22 +107,31 @@ file_put_contents('product.xml', $xml->saveXML());
 Can I you send us a link the rest of that xsl rss thingy? tongue emoticon
 
 writeRSS();
+=======
+/*writeRSS();
+>>>>>>> 6ed5d4fd0d0a2850510ed37b8bf8a307058791f2
 function writeRSS(){
     if (file_exists('rss.xml')) {
-        $type = $_POST["type"];
-        $name = $_POST["name"];
-        $ram = $_POST["ram"];
-        $price = $_POST["price"];
+        $title = $_POST["title"];
+        $author = $_POST["author"];
+        echo $title;
+
         
-        $title = $name;
-        $description = $type .", ".$ram.", ".$price;
+        $title = $title;
+        $description = $author;
         
         //loads the xml and returns a simplexml object
         $rssxml = simplexml_load_file('rss.xml');
         $newChild = $rssxml->channel->addChild('item');
         $newChild->addChild('title', $title);
-        $newChild->addChild('link', 'product.xml');
+        $newChild->addChild('link', 'bookList.xml');
         $newChild->addChild('description', $description);
         file_put_contents('rss.xml', $rssxml->asXML());
-    }
-}
+    }*/
+
+
+?>
+
+
+
+

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="bookstore.xslt"?>
+<books>
+  <book category="cookbook">
+    <title lang="en">The Joy of Cooking</title>
+    <author>Irma S. Rombauer</author>
+    <year>1997</year>
+    <price>€20.99</price>
+    <ageRating>Everyone</ageRating>
+    <description>Learn the joys of cooking from one the most pleasant foodie writers around!</description>
+  </book>
+  <book category="cookbook">
+    <title lang="en">The New Best Recipe</title>
+    <author>Cook's Illustrated Magazine</author>
+    <year>2004</year>
+    <price>€25.99</price>
+    <ageRating>Everyone</ageRating>
+    <description>Learn the latest recipes from the masters of honest food.</description>
+  </book>
+  <book category="cookbook">  
+    <title lang="en">Mastering the Art of French Cooking</title>
+    <author>Julia Childe</author>
+    <year>2001</year>
+    <price>€25.99</price>
+    <ageRating>Everyone</ageRating>
+    <description>Julia Chide teaches you about more than just escargot and frog legs, its time to educate yourself!</description>
+  </book>
+  <book category="cookbook">  
+    <title lang="en">Betty Crocker's Cookbook</title>
+    <author>Betty Crocker</author>
+    <year>1981</year>
+    <price>€16.99</price>
+    <ageRating>Everyone</ageRating>
+    <description>A classic that defined the modern cookbook.</description>
+  </book>
+  <book category="cookbook">  
+    <title lang="en">Vegetarian Cooking for Everyone</title>
+    <author>Deborah Madison</author>
+    <year>2007</year>
+    <price>€15.99</price>
+    <ageRating>Everyone</ageRating>
+    <description>Impress your friends and be mor politically correct alearn how to please those veggie eaters at the dinner party.</description>
+  </book>
+</books>

@@ -45,7 +45,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="index.html"><p>The Bookie Joint</p></a>
+				<a class="navbar-brand" href="index.html"><p>The Bookie Jar</p></a>
 			</div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav">
@@ -59,12 +59,9 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-<<<<<<< HEAD
-        <h1>Our Books!</h1>
-=======
-        <h1>Adam is clearly the best:)!</h1>
->>>>>>> 836e482e0c0eda51d7f87164e110b232fcbdfcb4
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+
+        <h1>Welcome to the Bookie Jar!</h1>
+        <p>We aim to help you unwind... lose yourself in a far away land or wrapped up in a gripping mystery... whatever your taste, you'll find it in the Bookie Jar!</p>
         <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
       </div>
     </div>
@@ -73,19 +70,51 @@
       <!-- Example row of columns -->
       <div class="row">
         <div class="col-md-4">
-          <h2>Adults</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <h2>Action</h2>
+          <p>For books which fall into the action genre, where there is a heavy focus on exciting action sequences.</p>
+          <img src="../Action/jurassicpark.jpg" alt="" width="300" height="300">
         </div>
         <div class="col-md-4">
-          <h2>Kids</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <h2>Cookbooks</h2>
+          <p>Dedicated to books thata main focus is to teach people how to cook and learn new recipes.</p>
+          <img src="pic_mountain.jpg"  alt="" width="300" height="300">
        </div>
         <div class="col-md-4">
-          <h2>Magazines</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <h2>Fantasy</h2>
+          <p>A section for books set in a high-fantasy setting, a whole lot of swords and sorcery. </p>
+          <img src="pic_mountain.jpg"  alt="" width="300" height="300">
+        </div>
+        
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Action</h2>
+          <img src="pic_mountain.jpg"  alt="" width="300" height="300">
+        </div>
+        <div class="col-md-4">
+          <h2>Cookbooks</h2>
+          <img src="pic_mountain.jpg"  alt="" width="300" height="300">
+       </div>
+        <div class="col-md-4">
+          <h2>Fantasy</h2>
+          <img src="pic_mountain.jpg"  alt="" width="300" height="300">
+        </div>
+        
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Action</h2>
+          <img src="pic_mountain.jpg"  alt="" width="300" height="300">
+        </div>
+        <div class="col-md-4">
+          <h2>Cookbooks</h2>
+          <img src="pic_mountain.jpg"  alt="" width="300" height="300">
+       </div>
+        <div class="col-md-4">
+          <h2>Fantasy</h2>
+          <img src="pic_mountain.jpg"  alt="" width="300" height="300">
         </div>
           <div id="bookList_container">
                            <button type="button" onclick="loadDoc1()">Action</button>
@@ -129,14 +158,14 @@
    }
        function loadDoc2(){
                                 $.ajax({
-                                    url: 'bookList.php'})
+                                    url: 'cookbookList.php'})
                                     .done (function(data) {
                                     $('#bookList_php').html(data);
                                     });
    }
        function loadDoc3(){
                                 $.ajax({
-                                    url: 'bookList.php'})
+                                    url: 'fantasyList.php'})
                                     .done (function(data) {
                                     $('#bookList_php').html(data);
                                     });

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="bookstore.xslt"?>
+<books>
+ <book category="Fantasy">  
+    <title lang="en">A Game of Thrones</title>
+    <author>George R.R. Martin</author>
+    <year>1996</year>
+    <price>€12.99</price>
+    <ageRating>Mature</ageRating>
+    <description>Cloak and dagger intrigue is bountiful, with rich characterisations and lore to satisfy even the most avid reader of fantasy. Just remember, when you play the game of thrones, you play to win!</description>
+  </book>
+  <book category="Fantasy">  
+    <title lang="en">The Lord of the Rings</title>
+    <author>J.R.R. Tolkien</author>
+    <year>1973</year>
+    <price>€8.99</price>
+    <ageRating>Everyone</ageRating>
+    <description>Born in the mind of one of the greatest writers and crafter of worlds; the world of middle-earth as it was written by the master himself, a series of books which truly gave definition to the genre. Before the end a fellowship will be formed and broken, battles will be won and lost... this is the war of the ring as it was told almost 50 years ago.</description>
+  </book>
+  <book category="Fantasy">  
+    <title lang="en">Harry Potter and the Philosophers Stone</title>
+    <author>J.K. Rowling</author>
+    <year>1997</year>
+    <price>€9.99</price>
+    <ageRating>Everyone</ageRating>
+    <description>The original hit which grew to be one of the most popular books of all time. Harry isn't just a boy with a scar on his head... he's a wizard!</description>
+  </book>
+  <book category="Fantasy">  
+    <title lang="en">Eragon</title>
+    <author>J.R.R. Tolkien</author>
+    <year>2005</year>
+    <price>€8.99</price>
+    <ageRating>Young Adults</ageRating>
+    <description>A young man finds a shiny stone in a forbidden mountain range... The start to an epic tale of high-fantasy, akin to Star Wars in scope!</description>
+  </book>
+  <book category="Fantasy">  
+    <title lang="en">His Dark Materials</title>
+    <author>Phillip Pullman</author>
+    <year>1997</year>
+    <price>€8.99</price>
+    <ageRating>Everyone</ageRating>
+    <description>A series set in one of the most vivid worlds created for young people. An emotionally rich tale that is surprising thought-provoking, with one of the most satisfying endings this reader has ever had the pleasure of digesting.</description>
+  </book>
+</books>
