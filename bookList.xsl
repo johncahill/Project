@@ -6,7 +6,7 @@
     <h2> List of Books </h2>
         <table border="1">
                 <tr bgcolor="#d3d3d3"> 
-                    <th style="text-align:left">Category:</th>
+                    <th style="text-align:left">ISBN:</th>
                     <th style="text-align:left">Title:</th>
                     <th style="text-align:left">Author:</th>
                     <th style="text-align:left">Year:</th>
@@ -16,7 +16,7 @@
                 </tr>
             <xsl:for-each select="books/book">
                 <tr>
-                    <td><xsl:value-of select="book"/></td>
+                    <td><xsl:value-of select="isbn"/></td>
                     <td><xsl:value-of select="title"/></td>
                     <td><xsl:value-of select="author"/></td>
                     <td><xsl:value-of select="year"/></td>
