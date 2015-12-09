@@ -126,6 +126,11 @@
                                
                            </div>
                        </div>
+                          <div id="rss" >
+                            <iframe src="rss.php" height="400px" width="400px" allowfullscreen="" frameborder="2">
+                              
+                             </iframe>
+                        </div>
       </div>
 
       <hr>
@@ -171,5 +176,24 @@
                                     });
    }
    </script>
+       <script>
+    function rss1(){
+                                $.ajax({
+                                    url: 'RSS.php'})
+                                    .done (function(data) {
+                                    $('#rss').html(data);
+                                    });
+   }
+    </script>
+       <form action = "changexml.php" method = "post">
+            Title
+            <input type="text" name="title"/>
+            
+            Author
+            <input type="text" name="author"/>
+            
+            <input type="submit"/>
+        
+        </form>
   </body>
 </html>

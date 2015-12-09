@@ -1,12 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsl:stylesheet version="1.0"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    <xsl:output method="html"/>
 
-<?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
- xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" version="1.0">
-<xsl:output method="html"/>
-<xsl:template match="/rss/channel">
-<p>Sunrise <xsl:value-of select="yweather:astronomy/@sunrise"/>,
- Sunset <xsl:value-of select="yweather:astronomy/@sunset"/>
-</p>
-<xsl:value-of disable-output-escaping="yes" select="item/description"/>
-</xsl:template>
+    <!-- suppress default default text node output -->
+    <xsl:template match="text()"/>
+    
+    <xsl:template match="/rss/channel/item">
+	<h2><a href="{link}"><xsl:value-of select="title"/></a></h2>
+	<div>
+	    <xsl:value-of select="description" disable-output-escaping="yes"/>
+	</div>
+    </xsl:template>
 </xsl:stylesheet>
+<!--http://www.evagoras.com/2011/02/10/improving-an-xml-feed-display-through-css-and-xslt/-->

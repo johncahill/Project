@@ -1,18 +1,8 @@
-
 <?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<?xml-stylesheet type="text/css" href="rss.css" ?>
 <rss version="2.0">
 <channel>
-<title>The Bookie Jar, Rss</title>
-<link>our website link goes here</link>
-<description>A brief description of our website</description>
-<!--"Header" ends-->
-<!-- This is where you would put the stuff you want to have a constant feed-->
-<item>
-  <title>Entry Title</title>
-  <link>Link to the entry</link>
-  <guid>http://example.com/item/123</guid>
-  <pubDate>Sat, 9 Jan 2010 16:23:41 GMT</pubDate>
-  <description>[CDATA[ This is the description. ]]</description>
-</item>
-<!-- -->
 
+<item><title>my name is mark</title><link>bookList.xml</link><description>Mark Mc Donald</description></item><item><title>cookbook</title><link>bookList.xml</link><description>john</description></item><item><title>john</title><link>bookList.xml</link><description>luke</description></item><item><title>t</title><link>bookList.xml</link><description>t</description></item><item><title>sandman slim</title><link>bookList.xml</link><description>luke carroll</description></item><item><title>Stormbreaker</title><link>bookList.xml</link><description>Dan Brown</description></item></channel>
+</rss>

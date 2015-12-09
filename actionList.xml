@@ -1,11 +1,5 @@
-<<<<<<< HEAD
- <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="actionList.xslt"?>
-=======
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="bookstore.xslt"?>
->>>>>>> 6ed5d4fd0d0a2850510ed37b8bf8a307058791f2
-<books>
+<?xml-stylesheet type="text/xsl" href="actionList.xslt"?>
   <book category="Action">  
     <title lang="en">The Hunger Games Collection</title>
     <author>Suzanne Collins</author>
@@ -44,6 +38,6 @@
     <year>1993</year>
     <price>€8.99</price>
     <ageRating>Mature</ageRating>
-    <description>This many need no introductions but don't be misled by the films who have stolen the spotlight, you may be surprised by how well thought the writing is in the original journey to Isla Sorna's Jurassic Park. </description>
+    <description>This may need no introduction, but don't be misled by the action films who have stolen the spotlight. You may be surprised by how thought-provoking the writing is in the original journey to Isla Sorna's Jurassic Park. </description>
   </book>
   </books>

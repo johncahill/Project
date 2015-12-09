@@ -10,6 +10,7 @@ $author = $_POST["author"];
 echo $title;
 
 if (file_exists('bookList.xml')) {
+    header('Location: index.html');
     //loads the xml and returns a simplexml object
     $xml = simplexml_load_file('bookList.xml');
     //print_r($xml);
@@ -39,12 +40,13 @@ if (file_exists('bookList.xml')) {
      <br /><br />
      <pre>' . htmlentities($xmlFormat, ENT_COMPAT | ENT_HTML401, "ISO-8859-1") . '</pre>';
 
-file_put_contents('product.xml', $xml->saveXML());
+file_put_contents('bookList.xml', $xml->saveXML());
 
 
 } else {
     exit('Failed to open bookList.xml.'); 
 }
+<<<<<<< HEAD
 
 
 
@@ -110,6 +112,10 @@ writeRSS();
 =======
 /*writeRSS();
 >>>>>>> 6ed5d4fd0d0a2850510ed37b8bf8a307058791f2
+=======
+file_put_contents('product.xml', $xml->asXML());
+writeRSS();
+>>>>>>> 765ca1be944fa73e851aec34ea82ca951e6531c4
 function writeRSS(){
     if (file_exists('rss.xml')) {
         $title = $_POST["title"];
@@ -127,11 +133,6 @@ function writeRSS(){
         $newChild->addChild('link', 'bookList.xml');
         $newChild->addChild('description', $description);
         file_put_contents('rss.xml', $rssxml->asXML());
-    }*/
-
-
+    }
+}
 ?>
-
-
-
-
